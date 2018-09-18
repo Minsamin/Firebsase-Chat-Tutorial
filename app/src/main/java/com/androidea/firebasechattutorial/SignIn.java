@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.androidea.firebasechattutorial.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -150,6 +151,9 @@ public class SignIn extends AppCompatActivity {
 
     private void sendNotification()
     {
+
+        Toast.makeText(this, "Current Recipients is : user1@gmail.com ( Just For Demo )", Toast.LENGTH_SHORT).show();
+
         AsyncTask.execute(new Runnable() {
             @Override
             public void run() {

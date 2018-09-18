@@ -89,6 +89,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String getemail = email.getText().toString().trim();
                 String getepassword = password.getText().toString().trim();
+
+                if(getemail.isEmpty()){
+                    Toast.makeText(MainActivity.this, "Type Email", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(getepassword.isEmpty()){
+                    Toast.makeText(MainActivity.this, "Type Password", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+
                 callsignin(getemail,getepassword);
 
             }
@@ -100,6 +111,21 @@ public class MainActivity extends AppCompatActivity {
 
                 String getemail = email.getText().toString().trim();
                 String getepassword = password.getText().toString().trim();
+
+                if(getemail.isEmpty()){
+                    Toast.makeText(MainActivity.this, "Type Email", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(getepassword.isEmpty()){
+                    Toast.makeText(MainActivity.this, "Type Password", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(getepassword.length()<6){
+                    Toast.makeText(MainActivity.this, "Password should minimum 6 Character", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+
                 callsignup(getemail,getepassword);
 
             }
