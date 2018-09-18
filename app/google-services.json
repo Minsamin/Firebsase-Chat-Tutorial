@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "1062578460087",
+    "firebase_url": "https://fir-tutorial-5800f.firebaseio.com",
+    "project_id": "fir-tutorial-5800f",
+    "storage_bucket": "fir-tutorial-5800f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062578460087:android:49bac328e488bca1",
+        "android_client_info": {
+          "package_name": "com.androidea.firebasechattutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062578460087-skulrlodvu85htdtrp1srbfl1psdj125.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4RADxjuflB4lVonA0wtJAw-4IDRQHpdc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062578460087:android:3d351c5b914db555",
+        "android_client_info": {
+          "package_name": "com.example.administrator.firebasetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062578460087-v8dn6foas5q050533iouephbh118d91u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.administrator.firebasetutorial",
+            "certificate_hash": "f285f60cfdf46687b22f74ff35e95847e6b22c86"
+          }
+        },
+        {
+          "client_id": "1062578460087-skulrlodvu85htdtrp1srbfl1psdj125.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4RADxjuflB4lVonA0wtJAw-4IDRQHpdc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062578460087-skulrlodvu85htdtrp1srbfl1psdj125.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

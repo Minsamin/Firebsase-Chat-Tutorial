@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="5dp"
+    android:background="@drawable/shape_outcoming_message"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fetch_chat_sender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="DEMO"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:minWidth="170dp" />
+
+    <TextView
+        android:id="@+id/fetch_chat_messgae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEMO"
+        android:minWidth="170dp"
+        />
+
+    <ImageView
+        android:id="@+id/chat_uploaded_image_incoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+
+        android:minWidth="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/attachment"
+        android:visibility="visible"
+        android:layout_marginLeft="22dp" />
+    <ImageView
+        android:id="@+id/chat_uploaded_image_outgoing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+
+        android:minWidth="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/attachment"
+        android:visibility="visible" />
+</LinearLayout>
